@@ -1,0 +1,121 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int a,score = 0;
+    cout<<"Here is the quiz, which contains 10 questions."<<endl;
+    cout<<"On every correct option, your score will be incremented by 10."<<endl;
+    cout<<endl;
+
+    cout<<"A. In which country would you find the Sydney Opera House? "<<endl;
+    cout<<" (1). India \n (2). USA \n (3). Australia \n (4). Japan \n";
+    cin>>a;
+    if(a == 3){
+        cout<<"Correct answer :)\n\n";
+        score += 10;
+    }
+    else {
+        cout<<"Wrong answer!!\n\n";
+        score += 0;
+    }
+    cout<<"B. Brass gets discoloured in air because of the presence of which of the following gases in air? "<<endl;
+    cout<<" (1). Oxygen \n (2). Hydrogen sulphide \n (3). Carbon dioxide \n (4). Nitrogen \n";
+    cin>>a;
+    if(a == 2) {
+        cout<<"Correct answer :)\n\n";
+        score += 10;
+    }
+    else {
+        cout<<"Wrong answer!!\n\n";
+        score += 0;
+    }
+    cout<<"C. Which of the following is a non metal that remains liquid at room temperature? "<<endl;
+    cout<<" (1). Bromine \n (2). Helium \n (3). Chlorine \n (4). Phosphorus \n";
+    cin>>a;
+    if(a == 1) {
+        cout<<"Correct answer :)\n\n";
+        score += 10;
+    }
+    else {
+        cout<<"Wrong answer!!\n\n";
+        score += 0;
+    }
+    cout<<"D. Chlorophyll is a naturally occurring chelate compound in which central metal is ?"<<endl;
+    cout<<" (1). Copper \n (2). Magnesium \n (3). Iron \n (4). Calcium \n";
+    cin>>a;
+    if(a == 2) {
+        cout<<"Correct answer :)\n\n";
+        score += 10;
+    }
+    else {
+        cout<<"Wrong answer!!\n\n";
+        score += 0;
+    }
+    cout<<"E. The southernmost point of peninsular India, that is, Kanyakumari, is ? "<<endl;
+    cout<<" (1). North of Tropic of Cancer \n (2). South of the Equator \n (3). South of the Capricorn \n (4). North of the Equator \n";
+    cin>>a;
+    if(a == 4) {
+        cout<<"Correct answer :)\n\n";
+        score += 10;
+    }
+    else {
+        cout<<"Wrong answer!!\n\n";
+        score += 0;
+    }
+    cout<<"F. The nucleus of an atom consists of "<<endl;
+    cout<<" (1). electrons and neutrons \n (2). electrons and protons \n (3). protons and neutrons \n (4). All of the above \n";
+    cin>>a;
+    if(a == 3){
+        cout<<"Correct answer :)\n\n";
+        score += 10;
+    } 
+    else{
+        cout<<"Wrong answer!!\n\n";
+        score += 0;
+    } 
+
+    cout<<"G. The number of moles of solute present in 1 kg of a solvent is called its "<<endl;
+    cout<<" (1). Molality \n (2). Molarity \n (3). Normality \n (4). Formality \n";
+    cin>>a;
+    if(a == 1) {
+        cout<<"Correct answer :)\n\n";
+        score += 10;
+    }
+    else {
+        cout<<"Wrong answer!!\n\n";
+        score += 0;
+    }
+    cout<<"H. The most electronegative element among the following is "<<endl;
+    cout<<" (1). sodium \n (2). fluorine \n (3). bromine \n (4). oxygen \n";
+    cin>>a;
+    if(a == 2) {
+        cout<<"Correct answer :)\n\n";
+        score += 10;
+    }
+    else {
+        cout<<"Wrong answer!!\n\n";
+        score += 0;
+    }
+    cout<<"I. 'OS' computer abbreviation usually means ? "<<endl;
+    cout<<" (1). Order of Significance \n (2). Open Software \n (3). Optical Sensor\n (4). Operating System \n";
+    cin>>a;
+    if(a == 4) {
+        cout<<"Correct answer :)\n\n";
+        score += 10;
+    }
+    else {
+        cout<<"Wrong answer!!\n\n";
+        score += 0;
+    }
+    cout<<"J. What's a web browser? "<<endl;
+    cout<<" (1). A kind of spider \n (2). A computer that stores WWW files \n (3). A person who likes to look at websites \n (4). A software program that allows you to access sites on the World Wide Web \n";
+    cin>>a;
+    if(a == 4) {
+        cout<<"Correct answer :)\n\n";
+        score += 10;
+    }
+    else {
+        cout<<"Wrong answer!!\n\n";
+        score += 0;
+    }
+    cout<<endl<<"Your Score: "<<score;
+}
